@@ -9,6 +9,8 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	text-shadow:  0.1em 0.1em black,0em 0em 2em white;
+	font-family: Copperplate Gothic Light, sans-serif;
 }
 
 table{
@@ -16,11 +18,20 @@ table{
 	margin-left: auto;
 	margin-right: auto;
 	border: 0.3em solid White;
+	border-collapse: collapse;
 	font-family: Tahoma, sans-serif;
+}
+
+#att{
+	text-align: left;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	vertical-align: bottom;
 }
 
 th{
 	border: 0.1em solid White;
+	text-shadow: 2em white;
 }
 
 td{
@@ -38,4 +49,10 @@ td{
 
 img{
 	padding-top: 1em;
+}
+
+footer{
+	font-family: Georgia;
+	color: white;
+	text-align: center;
 }
